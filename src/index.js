@@ -1,11 +1,11 @@
 import React from 'react';
-<<<<<<< HEAD
 import ReactDOM from 'react-dom/client';
-=======
-import  ReactDOM  from 'react';
->>>>>>> 9ab682c3db7dd2013f3e1484de358987b63c5cde
+import CardComponent from './components/CardComponent';
+import MainComponent from './components/MainComponent';
+import App from './App';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const holaMundo = <p>Hola mundo!</p>;
-root.render(holaMundo);
+root.render(<App />);
